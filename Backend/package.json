@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "body-parser": "^1.20.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "mongodb": "^4.7.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.18",
+    "save": "^2.5.0"
+  }
+}
